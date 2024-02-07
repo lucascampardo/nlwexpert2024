@@ -11,20 +11,20 @@ const perguntas = [
     {
         pergunta: "Qual é a sintaxe correta para comentar uma linha em JavaScript?",
         opcoes: [
-            "// Este é um comentário de linha",
             "/* Este é um comentário de linha */",
+            "// Este é um comentário de linha",
             "<!-- Este é um comentário de linha -->"
         ],
-        respostaCorreta: 0
+        respostaCorreta: 1
     },
     {
         pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
         opcoes: [
-            "push()",
             "add()",
-            "append()"
+            "append()",
+            "push()"
         ],
-        respostaCorreta: 0
+        respostaCorreta: 2
     },
     {
         pergunta: "Qual é a função do operador '===' em JavaScript?",
